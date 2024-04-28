@@ -13,7 +13,7 @@ final products = [
     'price': 20.12,
     'sizes': [9, 10, 12],
     'company': 'Adidas',
-    'imageUrl': 'images/1.png',
+    'imageUrl': 'images/3.png',
   },
   {
     'id': '2',
@@ -21,7 +21,7 @@ final products = [
     'price': 28.95,
     'sizes': [8, 9, 10],
     'company': 'Converse',
-    'imageUrl': 'images/1.png',
+    'imageUrl': 'images/4.png',
   },
   {
     'id': '3',
@@ -29,7 +29,7 @@ final products = [
     'price': 420.69,
     'sizes': [8, 9, 10, 11],
     'company': 'Nike',
-    'imageUrl': 'images/1.png',
+    'imageUrl': 'images/2.png',
   },
 ];
 

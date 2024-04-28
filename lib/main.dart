@@ -24,6 +24,15 @@ class MyApp extends StatelessWidget {
           ),
           prefixIconColor: Color.fromARGB(255, 107, 106, 106),
         ),
+        textTheme: const TextTheme(
+            titleMedium: TextStyle(
+              fontWeight: FontWeight.bold,
+              fontSize: 20,
+            ),
+            bodySmall: TextStyle(
+              fontSize: 16,
+              fontWeight: FontWeight.bold,
+            )),
       ),
       debugShowCheckedModeBanner: false,
       title: 'Sneaker Shop',
