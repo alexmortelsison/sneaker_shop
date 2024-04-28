@@ -10,10 +10,23 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
+      theme: ThemeData(
+        fontFamily: 'Lato',
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: const Color.fromARGB(255, 247, 124, 23),
+        ),
+        inputDecorationTheme: const InputDecorationTheme(
+          hintStyle: TextStyle(
+            fontWeight: FontWeight.bold,
+            fontSize: 16,
+          ),
+          prefixIconColor: Color.fromARGB(255, 107, 106, 106),
+        ),
+      ),
       debugShowCheckedModeBanner: false,
       title: 'Sneaker Shop',
-      home: HomePage(),
+      home: const HomePage(),
     );
   }
 }
