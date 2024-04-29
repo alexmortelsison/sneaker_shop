@@ -50,9 +50,7 @@ class MyApp extends StatelessWidget {
       ),
       debugShowCheckedModeBanner: false,
       title: 'Sneaker Shop',
-      home: ProductDetailsPage(
-        product: products[0],
-      ),
+      home: const HomePage(),
     );
   }
 }
